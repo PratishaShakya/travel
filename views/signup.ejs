@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+</head>
+<style>
+form {
+    border: 3px solid #f1f1f1;
+}
+  input[type=text], input[type=password], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.container {
+    padding: 16px;
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<body>
+
+<h1 align="center">Sign up</h1><br/>
+ <form method="post" >
+ <div class="container">
+  <b>Name:</b><br/>
+  <input type="text" name="name" placeholder="  Enter your name" size="100"  class="col-md-12"><br/><br/>
+  <b>User name:</b><br/>
+  <input type="text" name="username" placeholder="  Enter your user name" size="100"  class="col-md-12"><br/><br/>
+  <b>Password:</b><br/>
+  <input type="text" name="password" placeholder="  Enter your password" size="100"  class="col-md-12" required><br/><br/>
+  <b>Password:</b><br/>
+  <input type="text" name="password" placeholder="  Renter your password" size="100"  class="col-md-12" required><br/><br/>
+  <b>Contact no:</b><br/>
+  <input type="number" name="contact" placeholder="  Enter your contact number" size="100"  class="col-md-12"><br/><br/>
+  <b>Gender:</b><br/>
+  <input type="radio" name="gender" value="male" /> Male
+  <input type="radio" name="gender" value="female" /> Female
+  <input type="radio" name="gender" value="other" /> Others<br/><br/>
+  <b>Email:</b><br/>
+  <input type="text" name="email" placeholder="  Enter your email id" size="100"  class="col-md-12"><br/><br/>
+  <b>Select your photo</b><br/>
+  <input type="file" name="img"><br/><br/>
+  <input type="submit" name="Submit">
+  </div>
+  </form>
+</body>
+</html>
+
